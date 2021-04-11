@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bio page</title>
+<link href="css/meyerReset.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/Bio_master.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+
+<body>
+
+    <main>
+         <h1>Trieu and Linh bio page</h1>
+
+    <section id="imageContainer">
+    	<div id="houseImages" style="right: 0"> <!-- add in all of the images to make a scrolling "banner" -->
+    		<img src="images/Me.jpeg" width="600x" height="400px" />
+    		<img src="images/Linh.jpeg" width="600x" height="400px"/>
+        </div>
+    </section>
+
+    <nav id="bottomNav">
+    	<ul id="navList">
+        	<!-- custom data attribute, allowing to pass custom data https://developer.mozilla.org/en/docs/Web/API/HTMLElement/dataset -->
+            <li>
+              <div class="sigilContainer stark" data-offset="0"></div>
+            </li>
+            <li><div class="sigilContainer baratheon" data-offset="1"></div></li>
+        </ul>
+    </nav>
+
+   <!-- replace this with the house name -->
+    <h1> Aaron Do<h1>
+    <p> I'm a current Fanshawe student, I have study in Fanshawe for 2 year through different course and Interactive Media design is my current one. I used to take Music Industrial Art as a major but I have changed my mind after 1 year then move to downtown camouc to continue on Interactive media design</p>
+    <h1> Linh Nguyen<h1>
+    <p> Linh also a curren Fanshawe student with the motivation to be a designer on many sections. she also have two cats and two guinea pigs. She gruaduate in Mississauga then  ove to London to study Fanshawe as a designer.</p>
+
+    <p class="house-info"></p><!-- replace this with house details (github gist) -->
+    <!--lightbox goes here -->
+    <section class="lightbox1">
+    		<a href="#" class="close">X</a>
+    		<video src="video/Promotion-video.mp4" controls></video>
+    </section>
+    <!-- end lightbox-->
+
+</main>  <!--end mainContainer-->
+
+<script src="js/main.js"></script>
+</body>
+</html>
